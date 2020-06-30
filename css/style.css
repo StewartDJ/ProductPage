@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: left;
     background-image: url("../images/nugs.jpg");
-    background-size: cover;
+    background-size: 100%;
     padding-bottom: 20px;
 }
 #header-img {
