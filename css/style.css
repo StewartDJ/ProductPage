@@ -1,0 +1,92 @@
+#header {
+    display: flex;
+    flex-direction: left;
+    background-image: url("../images/nugs.jpg");
+    background-size: cover;
+    padding-bottom: 20px;
+}
+#header-img {
+    display: flex;
+    flex-direction: left;
+    padding-bottom: 20px;
+}
+a:link {
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    color: yellow;
+}
+a:active {
+    color: red;
+}
+a {
+    color: white;
+}
+ul {
+    display: flex;
+    flex-direction: right;
+    list-style-type: none;
+    margin: auto auto;
+}
+li {  
+    border-right: 1px solid white;
+    padding: 15px 15px 15px 15px;
+    flex-direction: row;
+    display: inline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+} 
+#nav-bar {
+    margin-top: 150px;
+    width: 100%;
+    position: absolute; 
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: black;
+    box-shadow: 5px 5px 5px grey;
+}
+h2 {
+     padding: 50px 20px 20px 20px; 
+     font-size: xx-large; 
+     font-weight: bold;
+ }
+#flexbox1 {
+    border: 1px solid black;
+    /*display: flex;
+    flex-direction: left;*/
+    float: left;
+    width: 30%;
+    margin-top: 30px;
+    padding: 20px 20px 20px 20px;
+    background-color: white;
+    border-radius: 5px;
+    border-color: black;
+    border-style: solid;    
+}
+#images {
+    mad-width:
+    margin: auto auto;
+}
+
+#container {
+
+    margin-top: 89px;
+    margin-bottom: 0px;
+    /*float: right;*/
+    /*
+    margin: 89px 450px 150px 750px;
+    position: absolute;
+*/
+} 
+
+#form { 
+   /* background-color: yellow;*/
+
+    /*float: right;
+    background-color: yellow; 
+    margin: 550px 450px 0px 800px;
+    position: absolute; */   
+}
+    
